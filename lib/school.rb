@@ -20,4 +20,11 @@ def add_student(value, key)
 end
 end  
 
+def grade(key)
+  roster[key]
+end
+
+
+
+
 end 
