@@ -12,8 +12,8 @@ def roster
   @roster
 end 
 def add_student(value, key)
-  @roster[key] = []
-  @roster[key] << value 
+  roster[key] = []
+  roster[key] << value 
 end  
 
 end 
