@@ -25,6 +25,7 @@ def grade(key)
 end
 
 def sort 
+  roster = {}
   roster[9] = []
   roster[9] << 100
   roster[9] << 98 
