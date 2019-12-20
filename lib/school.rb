@@ -11,7 +11,7 @@ def initialize(name)
 def roster
   @roster
 end 
-def add_student(key, value)
+def add_student(value, key)
   @roster[key] = []
   @roster[key] << value 
 end  
