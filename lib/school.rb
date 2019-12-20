@@ -34,6 +34,7 @@ def sort
   roster.each do |key, value|
     value.sort
 end
+puts roster[9]
 end
 
 
