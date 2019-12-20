@@ -12,9 +12,12 @@ def roster
   @roster
 end 
 def add_student(value, key)
-  if roster
+  if roster.include?(key)
+    roster[key] << value 
+  else
   roster[key] = []
   roster[key] << value 
+end
 end  
 
 end 
