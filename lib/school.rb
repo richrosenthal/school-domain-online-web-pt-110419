@@ -26,8 +26,8 @@ end
 
 def sort 
   roster.keys.sort_by { |key| roster[key] }.each do
-|key|
-    puts roster[key]
+|key|.sort
+  
 end
 end
 
