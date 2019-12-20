@@ -15,3 +15,5 @@ def add_student(key, value)
   @roster[key] = []
   @roster[key] << value 
 end  
+
+end 
