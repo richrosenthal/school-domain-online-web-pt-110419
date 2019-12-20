@@ -29,7 +29,7 @@ def sort
   roster[9] << 100
   roster[9] << 98 
   roster[9] << 133
-  roster[9]
+  puts roster[9]
   roster.each do |key, value|
     value.sort
 end
