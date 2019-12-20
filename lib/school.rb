@@ -25,7 +25,7 @@ def grade(key)
 end
 
 def sort 
-  roster[key].sort
+  roster.sort
 end
 
 
