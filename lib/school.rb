@@ -25,7 +25,7 @@ def grade(key)
 end
 
 def sort 
-  roster.sort
+  roster.sort_by { |element| element.keys.first }
 end
 
 
