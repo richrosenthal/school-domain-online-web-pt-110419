@@ -25,9 +25,10 @@ def grade(key)
 end
 
 def sort 
-  roster.each do |key|
-    key.sort
-  end 
+  roster.keys.sort_by { |key| roster[key] }.each do
+|key|
+    puts roster[key]
+end
 end
 
 
